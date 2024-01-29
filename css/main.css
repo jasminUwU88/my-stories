@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    background-image: linear-gradient(#332941, #33294180), url("../img/balloon.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p,
+h1,
+h3,
+label,
+a {
+    color: #eee9ff;
+}
+
+.dropdown-menu,
+.list-group-item {
+    background: #3B3486
+}
+
+.dropdown-item:hover,
+.list-group-item:hover {
+    background: #864AF9
+}
+
+.fade-1 {
+    animation: fade-in 100ms ease-out 100ms;
+    animation-fill-mode: backwards;
+}
+
+.fade-2 {
+    animation: fade-in 100ms ease-out 150ms;
+    animation-fill-mode: backwards;
+}
+
+.fade-3 {
+    animation: fade-in 100ms ease-out 200ms;
+    animation-fill-mode: backwards;
+}
+
+.fade-4 {
+    animation: fade-in 100ms ease-out 250ms;
+    animation-fill-mode: backwards;
+}
+
+.fade-5 {
+    animation: fade-in 100ms ease-out 300ms;
+    animation-fill-mode: backwards;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translate(-50px);
+    }
+}
